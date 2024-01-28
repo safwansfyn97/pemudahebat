@@ -1,0 +1,367 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #EEE2DE;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+nav {
+    background-color: #B31312;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo-container {
+    display: flex;
+    align-items: center;
+    padding-right: 300px; 
+    padding-left: 80px;
+}
+
+nav .logo-container img {
+    max-width: 150px;
+    margin-right: 10px;
+}
+nav .logo-container p {
+    color: #ffdd00;
+    font-family: serif;
+    font-size: medium;
+} 
+nav .menu{
+    padding-right: 30px;
+}
+
+nav h1{
+    padding-left: 100px;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo-container {
+    color: white;
+    font-size: xx-large;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li:hover {
+    background-color: #2B2A4C;
+    color: black;
+    font-size: xx-large;
+    text-decoration: bold;
+    padding : 3px 20px 10px;
+    transition: 0.4s;
+    border-radius: 10px;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: x-large;
+}
+.banner{
+    align-items: center;
+}
+.banner img {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.info-box {
+    background-color: #2B2A4C;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 45%; 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.info-box h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.info-box p {
+    color: white;
+    font-size: 25px;
+}
+.info-box ul li{
+    color: white;
+    font-size: 25px;
+}
+footer {
+    background-color: #7E1312;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info,
+.copyright {
+    margin-bottom: 20px;
+}
+
+.contact-info h3,
+.copyright p {
+    margin: 0;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #7E1312;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
+}
+
+
+ .info-box2 {
+    background-color: #2B2A4C;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.info-box2 h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.info-box2 p {
+    color: white;
+    font-size: 30px;
+}
+ .info-box2 ul li {
+    color: white;
+    font-size: 20px;
+}
+.banner2-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container3 {
+    margin-top: ;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container3 h1 {
+     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #C11B23;
+    padding-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #B31312;
+    border-radius: 4px;
+}
+.back-btn {
+   
+    display: inline-block;
+    background-color: #2B2A4C;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+}
+  
+ button{
+    align-content: center;
+    font-size: large;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: #C1272D;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+button:hover, .back-btn:hover {
+    background-color: #981B23;
+}
+.back-btn2-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-btn2 {
+    display: inline-block;
+    background-color: #2B2A4C;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: large;
+    margin-bottom: 50px;
+}
+
+.back-btn2:hover {
+    background-color: #981B23;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav .logo-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    } 
+    .banner img{
+    padding-top: 180px;
+  }
+    nav .menu {
+        padding-right: 10px;
+    }
+
+    .info-boxes {
+        flex-direction: column;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+    
+    .info-box h2 {
+        font-size: 24px;
+    }
+
+    .info-box p,
+    .info-box ul li {
+        font-size: 18px;
+    }
+    
+    footer {
+        padding: 10px;
+    }
+    .container3 {
+        align-items: center;
+        max-width: 80%; 
+        margin: 10px;
+        box-shadow: none;
+        padding: 10px; }
+
+    input, select {
+        align-items: center;
+        width: calc(80% - 20px);
+    }
+        
+    
+    button{
+        margin-top: 20px;
+         width: 80%;
+        margin-right: 0;
+        display: block;
+    } .back-btn {
+          margin-top: px;
+         width: 70%;
+        margin-right: 0;
+        display: block;
+    }
+       
+}
